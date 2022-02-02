@@ -27,4 +27,3 @@ yarn-error.log*
 /.github
 firebase.json
 .firebaserc
-/test
