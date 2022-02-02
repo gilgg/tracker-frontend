@@ -1,0 +1,26 @@
+@import "./sass/fonts";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root,
+html,
+body {
+  height: 100vh;
+  font-family: $font-family;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
